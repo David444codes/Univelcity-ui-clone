@@ -1,0 +1,121 @@
+@media screen and (max-width: 500px){
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        box-shadow: 1px 1px 2px #c1c2c2;
+        justify-content: flex-start;
+        }
+    nav ul li{
+        display: none;
+        }
+    nav button {
+        display: none;
+        }
+
+    #container {
+    flex-direction: column;
+    margin: 40% 7%;
+    }
+
+    #container .text h1 {
+        font-weight: 700;
+        Font-size: 35px;
+        Line-height: 40px;
+    }
+
+    #container .text p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+
+    #container .text button {
+        padding: 16px 18px;
+    }
+
+
+    #container .image img {
+        width: 250px;
+    }
+
+    #second {
+        flex-direction: column;
+    }
+
+    #second .head-text h1 {
+        font-size: 20px;
+        /* font-weight: 600; */
+        line-height: 30px;
+    }
+
+    #second .head-text button {
+        padding: 15px 18px;
+    }
+    
+    #mid-section h1 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    #mid-section p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    
+    #second .head-text {
+        width: auto;
+    }
+
+    #second .img {
+        width: auto;
+    }
+    
+    .list ul{
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .testimony h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .testimony p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .testimonials p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+    } 
+    
+
+    #courses-box {
+        grid-template-columns: 1fr;
+    }
+    
+    #footer-container {
+        grid-template-columns: 1fr;
+        padding: 100px 50px 30px 15px;
+    }
+    footer .one h1{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+    footer .three input {
+        width: auto;
+    }
+    footer .three button {
+        margin: 10px 100px;
+    }
+}
